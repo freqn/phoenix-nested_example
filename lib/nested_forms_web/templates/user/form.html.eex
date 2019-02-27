@@ -11,7 +11,7 @@
 
   <%= inputs_for f, :posts, fn p -> %>
     <div class="form-group">
-      <%= label p, :body, class: "control-label" %>
+      <%= label p, "Post Body", class: "control-label" %>
       <%= text_input p, :body, class: "form-control" %>
       <%= error_tag p, :body %>
     </div>
